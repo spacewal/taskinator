@@ -6,6 +6,7 @@ var taskFormHandler = function(event) {
   var taskNameInput = document.querySelector("input[name='task-name']").value;
   var taskTypeInput = document.querySelector("select[name='task-type']").value;
 
+<<<<<<< HEAD
     // check if input values are empty strings
     if (!taskNameInput || !taskTypeInput) {
         alert("You need to fill out the task form!");
@@ -40,3 +41,6 @@ var createTaskEl = function (taskDataObj) {
 };
 
 formEl.addEventListener("submit", taskFormHandler);
+=======
+buttonEl.addEventListener("click", createTaskHandler);
+>>>>>>> feature/add-task
